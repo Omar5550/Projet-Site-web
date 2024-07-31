@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <link rel="stylesheet" href="site.css">
+</head>  
+<div class="nom"> 
+  <span class="om">OM</span><span class="art">ART</span>
+</div>
+<body>
+    <header>
+        <nav>
+              <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#contact">Contactez-nous</a></li>
+              </ul>
+        </nav>
+        <div class="nom"> 
+          <span class="om">OM</span><span class="art">ART</span>
+        </div>
+    </header>
+    <main id="home">
+        <section> <br>
+            <p>"Le musée est un des lieux qui donnent la plus haute idée de l'homme"</p> 
+            <h1>Bienvenue sur notre site</h1>
+           <div class="container"> 
+            <img  src="musee1.webp" alt="">
+            <img  src="musee3.jpg" alt="">
+          </div> 
+        
+            <form id="contactForm">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+            <div id="responseMessage"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web</p>
+    </footer>
+
+    <script src="site.js"></script>
+</body>
+</html>
